@@ -1,0 +1,26 @@
+# Object files
+*.o
+*.d
+*.lst
+
+# Firmware build outputs
+*.bin
+*.elf
+*.map
+*.dmp
+*.hex
+
+# Dump files
+__dump.txt
+__dump_all.txt
+*.dump
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.tmp
