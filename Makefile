@@ -28,9 +28,9 @@ OUT_DUMP_FILE = $(BUILD_DIR)/$(OUT_FILE_NAME).dmp
 # =========================================================
 
 CSRC = \
-	src/main.c \
-	src/alarm.c \
-	src/lcd_status.c \
+	src/app/main.c \
+	src/app/alarm.c \
+	src/app/lcd_status.c \
 	drivers/buzzer.c \
 	drivers/key.c \
 	drivers/lcd.c \
